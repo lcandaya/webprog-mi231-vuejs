@@ -110,6 +110,17 @@ h1 {
   line-height: 30px;
 }
 
+h3{
+    text-align:center;
+  }
+  
+.paragraph, ul{
+    margin-left: 12px;
+    margin-right: 10px;
+    font-size: 15px;
+    line-height: 20px;
+}
+
 .container {
   display: flex;
   flex-direction: column;

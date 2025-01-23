@@ -1,27 +1,26 @@
 <template>
-    <div>
-        <h2>{{ name }}</h2>
-        <p>{{ message }}</p>
+    <div class="mango">
+      <h2>{{ name }}</h2>
+      <p>{{ message }}</p>
     </div>
-</template>
-
-<script>
-export default {
+  </template>
+  
+  <script>
+  export default {
     data() {
-        return {
-            name: 'Mangoes',
-            message: 'I like mangoes'
-        }
+      return {
+        name: 'Mangoes',
+        message: 'I like Mangoes'
+      }
     }
-};
-</script>
-
-<style>
-  #app > div {
+  };
+  </script>
+  
+  <style>
+  .mango {
         border: dashed black 1px;
         display: inline-block;
         margin: 10px;
         padding: 10px;
         background-color: lightyellow;
-    }
-</style>
+    }</style>

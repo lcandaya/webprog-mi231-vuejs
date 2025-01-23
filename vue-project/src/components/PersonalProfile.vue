@@ -1,12 +1,4 @@
 <template>
-    <header>
-        <!DOCTYPE html>
-<html lang="en">
-<head>
-    <link rel="stylesheet" href="css/flexbox-grid.css?version=0.1">
-    <title>Grid with Flexwrap</title>
-</head>
-<body>
     <div class="container">
         <header>
           <h1>Hi there!
@@ -148,7 +140,7 @@ header {
     text-align: left;
     color: #c31197;
   }
-  
+
   h3{
     text-align:center;
   }

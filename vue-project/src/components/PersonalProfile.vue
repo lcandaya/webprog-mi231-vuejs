@@ -98,4 +98,43 @@
 </script>
 
 <style>
+header {
+    background: linear-gradient(90deg, #f8bae3, #dc55ab, #F11EB6);
+    color: white;
+    text-align: left;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  body{
+    background-color: #f7f5f5;
+  }
+  
+  h1{
+    margin-left: 10px;
+    line-height: 30px;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column; 
+    height: 100vh; 
+    border-radius: 10px;
+  }
+  
+  .grid {
+    display: flex;
+    flex-wrap: wrap; 
+    flex: 1; 
+    border-radius: 10px;
+  }
+  
+  .grid-item {
+    background-color: #f1abd9;
+    flex: 1 1 200px;
+    margin: 5px;
+    border-radius: 10px;
+    text-align: left;
+    color: #c31197;
+  }
 </style>

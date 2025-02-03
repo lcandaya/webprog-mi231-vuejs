@@ -102,7 +102,7 @@ header {
 }
 
 body {
-  background-color: #f7f5f5;
+  background-color: #fffce4;
 }
 
 h1 {

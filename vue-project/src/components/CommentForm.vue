@@ -48,26 +48,44 @@
   }
 </script>
 <style scoped>
-  /* Basic styling - Customize as needed */
-  .form-group {
-    margin-bottom: 1rem;
-  }
-  label {
-    display: block;
-    margin-bottom: 0.5rem;
-  }
-  .form-control {
-    width: 100%;
-    padding: 0.5rem;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-  }
-  .btn {
-    padding: 0.5rem 1rem;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
+/* Basic styling - Customize as needed */
+div {
+  max-width: 400px; /* Limit the container's width */
+  margin: auto; /* Center the container */
+  padding: 1rem; /* Add padding around the container */
+  border: 1px dashed #000; /* Keep the dashed border for visibility */
+  background-color: #fffbea; /* Light yellow background */
+}
+
+h2 {
+  text-align: center; /* Center the heading */
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.form-control {
+  width: 100%; /* Ensure the input fields don't exceed the container's width */
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; /* Include padding in the element's total width/height */
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: block;
+  margin: auto; /* Center the button */
+}
 </style>

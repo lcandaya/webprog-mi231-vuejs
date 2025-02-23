@@ -1,14 +1,9 @@
 <template>
-  <h1>Food</h1>
-  <country/>
-  <food-item/>
-  <food-item/>
-  <food-item/>
-  <comment-form/>
-  <comment/>
-  <personal-profile/>
-   
-
+  <Clients/>
+  <Motorcar/>
 </template>
 
-<script></script>
+<script setup lang="ts">
+  import Clients from './components/Clients.vue';
+  import Motorcar from './components/Motorcar.vue';
+</script>
